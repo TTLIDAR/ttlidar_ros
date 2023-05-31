@@ -17,6 +17,7 @@ roslaunch ttlidar_node ttlidar.launch (for TTLIDAR A1/T1)
 
 ------------------------------------------------------------
 2. There're two ways to run ttlidar ros package, and subscribe scan_msg
+
 2.1 Run ttlidar node and view in the rviz
 roslaunch ttlidar_node view_ttlidar.launch (for TTLIDAR A1/T1)
 
