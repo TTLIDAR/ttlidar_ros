@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>ttlidar_node</name>
+  <version>1.0.0</version>
+  <description>The ttlidar_node ros package, support A1 and T1 </description>
+
+  <maintainer email="tech@titanlaser.com"> The Titan laser ROS Maintainer</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rosconsole</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+
+</package>

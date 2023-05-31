@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find ttlidar_node)/launch/ttlidar.launch" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ttlidar_node)/rviz/ttlidar.rviz" />
+</launch>
