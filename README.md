@@ -22,8 +22,8 @@ roslaunch ttlidar_node ttlidar.launch (for TTLIDAR A3)
 roslaunch ttlidar_node view_ttlidar.launch (for TTLIDAR A3)
 
 2.2 Run ttlidar_node and simple subscribe_demo_node 
-1)roslaunch ttlidar_node ttlidar.launch (for TTLIDAR A3)
 
+1)roslaunch ttlidar_node ttlidar.launch (for TTLIDAR A3)
 2)rosrun ttlidar_ros subcscribe_demo_node
 
 You should see ttlidar's scan info in the console
